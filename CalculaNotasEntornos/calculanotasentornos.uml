@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_G8ngMLjSEeuOdeOLdha9MA" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_9ibWULjUEeuOdeOLdha9MA" name="Alumno" visibility="public">
+    <generalization xmi:id="_84F94LjqEeuOdeOLdha9MA" general="_32kaMLjpEeuOdeOLdha9MA"/>
+    <ownedAttribute xmi:id="_CktkcLjVEeuOdeOLdha9MA" name="nia:String" visibility="private">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CktkcbjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CkuLgLjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_FW7NYLjVEeuOdeOLdha9MA" name="examenClasico1:Examen" visibility="private">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FW70cLjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FW70cbjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_JAVkELjVEeuOdeOLdha9MA" name="examenClasico2" visibility="private" type="_KrL8ULjVEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JAVkEbjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JAVkErjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_JKuPILjVEeuOdeOLdha9MA" name="examenClasico3" visibility="private" type="_KrL8ULjVEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JKuPIbjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JKuPIrjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_M7xe4LjVEeuOdeOLdha9MA" name="examenTest1:Examen" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M7xe4bjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M7xe4rjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_RY-qALjVEeuOdeOLdha9MA" name="examenTest2" visibility="private" type="_SRu28LjVEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RY-qAbjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RY-qArjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_SmTYwLjVEeuOdeOLdha9MA" name="trabajo1:TrabajoClase" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SmTYwbjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SmTYwrjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_VwW58LjVEeuOdeOLdha9MA" name="trabajo2" visibility="private" type="_XFqgALjVEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VwW58bjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VwW58rjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_WNC18LjVEeuOdeOLdha9MA" name="trabajo3" visibility="private" type="_XFqgALjVEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WNC18bjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WNC18rjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jKT9oLjVEeuOdeOLdha9MA" name="notaGlobal:double" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jKUksLjVEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jKUksbjVEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_1H0FALjVEeuOdeOLdha9MA" name="Alumno(String, ExamenClasico, ExamenClasico, ExamenClasico, ExamenTest, ExamenTest, TrabajoClase, TrabajoClase, TrabajoClase)"/>
+    <ownedOperation xmi:id="_J8w6oLjWEeuOdeOLdha9MA" name="getNia:String"/>
+    <ownedOperation xmi:id="_NFMEILjWEeuOdeOLdha9MA" name="getExamenClasico1:Examen"/>
+    <ownedOperation xmi:id="_RPSGALjWEeuOdeOLdha9MA" name="getExamenClasico2:Examen"/>
+    <ownedOperation xmi:id="_RZ9sALjWEeuOdeOLdha9MA" name="getExamenClasico3:Examen"/>
+    <ownedOperation xmi:id="_WvdKALjWEeuOdeOLdha9MA" name="getExamenTest1:Examen"/>
+    <ownedOperation xmi:id="_bMFtYLjWEeuOdeOLdha9MA" name="getExamenTest2:Examen"/>
+    <ownedOperation xmi:id="_cs3joLjWEeuOdeOLdha9MA" name="getTrabajo1:TrabajoClase"/>
+    <ownedOperation xmi:id="_fvws4LjWEeuOdeOLdha9MA" name="getTrabajo2:TrabajoClase"/>
+    <ownedOperation xmi:id="_f6Sh4LjWEeuOdeOLdha9MA" name="getTrabajo3:TrabajoClase"/>
+    <ownedOperation xmi:id="_mYy2ZrjWEeuOdeOLdha9MA" name="setNia">
+      <ownedParameter xmi:id="_Kmq90LjXEeuOdeOLdha9MA" name="String"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_mYy2Y7jWEeuOdeOLdha9MA" name="setExamenClasico1">
+      <ownedParameter xmi:id="_3EU_kLjWEeuOdeOLdha9MA" name="ExamenClasico"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_mYyPULjWEeuOdeOLdha9MA" name="setExamenClasico2">
+      <ownedParameter xmi:id="_rJSJ4LjWEeuOdeOLdha9MA" name="ExamenClasico"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_mYy2ZLjWEeuOdeOLdha9MA" name="setExamenClasico3">
+      <ownedParameter xmi:id="_47160LjWEeuOdeOLdha9MA" name="ExamenClasico"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_mYyPUbjWEeuOdeOLdha9MA" name="setExamenTest1">
+      <ownedParameter xmi:id="_8jzgALjWEeuOdeOLdha9MA" name="ExamenTest"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_mYy2YLjWEeuOdeOLdha9MA" name="setExamenTest2">
+      <ownedParameter xmi:id="_92vHgLjWEeuOdeOLdha9MA" name="ExamenTest"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_mYy2YbjWEeuOdeOLdha9MA" name="setTrabajo1">
+      <ownedParameter xmi:id="_DxeAkLjXEeuOdeOLdha9MA" name="TrabajoClase"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_mYy2YrjWEeuOdeOLdha9MA" name="setTrabajo2">
+      <ownedParameter xmi:id="_F4HkALjXEeuOdeOLdha9MA" name="TrabajoClase"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_mYy2ZbjWEeuOdeOLdha9MA" name="setTrabajo3">
+      <ownedParameter xmi:id="_IA6cgLjXEeuOdeOLdha9MA" name="TrabajoClase"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_RUkZMLjXEeuOdeOLdha9MA" name="toString:String"/>
+    <ownedOperation xmi:id="_UVKcYLjXEeuOdeOLdha9MA" name="calcNotaGlobal:double"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KrL8ULjVEeuOdeOLdha9MA" name="Examen :  "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SRu28LjVEeuOdeOLdha9MA" name="Examen : String "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XFqgALjVEeuOdeOLdha9MA" name="TrabajoClase : String "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_arr5kLjXEeuOdeOLdha9MA" name="Examen" visibility="public" isAbstract="true">
+    <ownedAttribute xmi:id="_fuaMkLjXEeuOdeOLdha9MA" name="porcentaje" visibility="protected">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fuaMkbjXEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fuaMkrjXEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_lQIIsLjXEeuOdeOLdha9MA" name="Examen"/>
+    <ownedOperation xmi:id="_m_nJULjXEeuOdeOLdha9MA" name="Examen">
+      <ownedParameter xmi:id="_t6_nELjXEeuOdeOLdha9MA" name="double"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_pEOFYLjXEeuOdeOLdha9MA" name="getPorcentaje:double"/>
+    <ownedOperation xmi:id="_vNHWQLjXEeuOdeOLdha9MA" name="setPorcentaje(double):boolean"/>
+    <ownedOperation xmi:id="_0txicLjXEeuOdeOLdha9MA" name="getNota:double" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8PY5wLjXEeuOdeOLdha9MA" name="ExamenClasico" visibility="public">
+    <generalization xmi:id="_-z90sLjqEeuOdeOLdha9MA" general="_arr5kLjXEeuOdeOLdha9MA"/>
+    <ownedAttribute xmi:id="__rVcMLjXEeuOdeOLdha9MA" name="notaExamen:double" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__rVcMbjXEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__rVcMrjXEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ETdd4LjYEeuOdeOLdha9MA" name="ExamenClasico(double, double)"/>
+    <ownedOperation xmi:id="_IMsZQLjYEeuOdeOLdha9MA" name="setNotaExamen(double):boolean"/>
+    <ownedOperation xmi:id="_LihFkLjYEeuOdeOLdha9MA" name="getNotaExamen:double"/>
+    <ownedOperation xmi:id="_P2rpcLjYEeuOdeOLdha9MA" name="getNota:double" visibility="package"/>
+    <ownedOperation xmi:id="_X40T4LjYEeuOdeOLdha9MA" name="toString:String" visibility="package"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gW1pELjYEeuOdeOLdha9MA" name="ExamenTest" visibility="public">
+    <generalization xmi:id="_-HHVwLjqEeuOdeOLdha9MA" general="_arr5kLjXEeuOdeOLdha9MA"/>
+    <ownedAttribute xmi:id="_sznxgLjmEeuOdeOLdha9MA" name="NUM_PREGUNTAS" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_szoYkLjmEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_szoYkbjmEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__N24MLjmEeuOdeOLdha9MA" name="VALOR_PREGUNTA" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__N24MbjmEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__N24MrjmEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__yyKMLjmEeuOdeOLdha9MA" name="VALOR_FALLO" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__yyKMbjmEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__yyKMrjmEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ATbZILjnEeuOdeOLdha9MA" name="numAciertos" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ATbZIbjnEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ATbZIrjnEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_AmbNoLjnEeuOdeOLdha9MA" name="numFallos" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AmbNobjnEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AmbNorjnEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_O2A40LjnEeuOdeOLdha9MA" name="ExamenTest(double, int, int)"/>
+    <ownedOperation xmi:id="_TnXH8LjnEeuOdeOLdha9MA" name="getNumAciertos:int"/>
+    <ownedOperation xmi:id="_ZCqTALjnEeuOdeOLdha9MA" name="getNumFallos:int"/>
+    <ownedOperation xmi:id="_bhj-YLjnEeuOdeOLdha9MA" name="setNumAciertos(int):boolean"/>
+    <ownedOperation xmi:id="_1KcdELjnEeuOdeOLdha9MA" name="setNumFallos(int) : boolean"/>
+    <ownedOperation xmi:id="_5swxsLjnEeuOdeOLdha9MA" name="ckNotaValidad:boolean" visibility="private"/>
+    <ownedOperation xmi:id="_-P8pALjnEeuOdeOLdha9MA" name="toString:String" visibility="package"/>
+    <ownedOperation xmi:id="_D58-cLjoEeuOdeOLdha9MA" name="calcularNota:double"/>
+    <ownedOperation xmi:id="_IRipwLjoEeuOdeOLdha9MA" name="getNota:double" visibility="package"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MZQD0LjZEeuOdeOLdha9MA" name="TrabajoClase" visibility="public">
+    <ownedAttribute xmi:id="_zkEfsLjoEeuOdeOLdha9MA" name="entregado" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zkFGwLjoEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zkFGwbjoEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9w6uMLjoEeuOdeOLdha9MA" name="diasRetraso:int" visibility="private">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9w7VQLjoEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9w7VQbjoEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CbSyoLjpEeuOdeOLdha9MA" name="puntosPenalizacion:double" visibility="private">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CbSyobjpEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CbSyorjpEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_IgU3MLjpEeuOdeOLdha9MA" name="TrabajoClase"/>
+    <ownedOperation xmi:id="_NIcR0LjpEeuOdeOLdha9MA" name="TrabajoClase(int)"/>
+    <ownedOperation xmi:id="_RGgC0LjpEeuOdeOLdha9MA" name="isEntregado:boolean"/>
+    <ownedOperation xmi:id="_VaqmsLjpEeuOdeOLdha9MA" name="getDiasRetraso:int"/>
+    <ownedOperation xmi:id="_YCXBsLjpEeuOdeOLdha9MA" name="getPuntosPenalizacion:double"/>
+    <ownedOperation xmi:id="_bqHLgLjpEeuOdeOLdha9MA" name="setPuntosPenalizacion" visibility="private"/>
+    <ownedOperation xmi:id="_eyM90LjpEeuOdeOLdha9MA" name="setEntregado(boolean)"/>
+    <ownedOperation xmi:id="_ig6rQLjpEeuOdeOLdha9MA" name="setDiasRetraso(int)"/>
+    <ownedOperation xmi:id="_lM5wYLjpEeuOdeOLdha9MA" name="toString:String" visibility="package"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_32kaMLjpEeuOdeOLdha9MA" name="Grupo" visibility="public">
+    <ownedAttribute xmi:id="_8dVJ8LjpEeuOdeOLdha9MA" name="listaAlumnos:ArrayList&lt;Alumno>" visibility="package">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8dVJ8bjpEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8dVJ8rjpEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_GI0X0LjqEeuOdeOLdha9MA" name="addAlumno(Alumno):boolean"/>
+    <ownedOperation xmi:id="_Olj6oLjqEeuOdeOLdha9MA" name="getNotaAlumno(String):String"/>
+    <ownedOperation xmi:id="_XZJQILjqEeuOdeOLdha9MA" name="ckNiaRepetido(String):boolean" visibility="private"/>
+    <ownedOperation xmi:id="_c0UfYLjqEeuOdeOLdha9MA" name="getListaAlumnos:ArrayList&lt;Alumno>"/>
+    <ownedOperation xmi:id="_iZ0vULjqEeuOdeOLdha9MA" name="toString:String" visibility="package"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N4LawLjrEeuOdeOLdha9MA" name="alumno_hace_trabajo" memberEnd="_N4LawbjrEeuOdeOLdha9MA _N4LaxLjrEeuOdeOLdha9MA" navigableOwnedEnd="_N4LawbjrEeuOdeOLdha9MA _N4LaxLjrEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_N4LawbjrEeuOdeOLdha9MA" name="alumnos" type="_9ibWULjUEeuOdeOLdha9MA" association="_N4LawLjrEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N4LawrjrEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N4Law7jrEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_N4LaxLjrEeuOdeOLdha9MA" name="trabajoClases" type="_MZQD0LjZEeuOdeOLdha9MA" association="_N4LawLjrEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N4LaxbjrEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N4LaxrjrEeuOdeOLdha9MA" value="3"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Syh04LjrEeuOdeOLdha9MA" name="alumno_hace_examenClasico" memberEnd="_Syh04bjrEeuOdeOLdha9MA _Syh05LjrEeuOdeOLdha9MA" navigableOwnedEnd="_Syh04bjrEeuOdeOLdha9MA _Syh05LjrEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_Syh04bjrEeuOdeOLdha9MA" name="alumnos" type="_9ibWULjUEeuOdeOLdha9MA" association="_Syh04LjrEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Syh04rjrEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Syh047jrEeuOdeOLdha9MA" value="3"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Syh05LjrEeuOdeOLdha9MA" name="examenClasicos" type="_8PY5wLjXEeuOdeOLdha9MA" association="_Syh04LjrEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Syh05bjrEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Syh05rjrEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UQnjgLjrEeuOdeOLdha9MA" name="alumno_hace_examenTest" memberEnd="_UQnjgbjrEeuOdeOLdha9MA _UQnjhLjrEeuOdeOLdha9MA" navigableOwnedEnd="_UQnjgbjrEeuOdeOLdha9MA _UQnjhLjrEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_UQnjgbjrEeuOdeOLdha9MA" name="alumnos" type="_9ibWULjUEeuOdeOLdha9MA" association="_UQnjgLjrEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UQnjgrjrEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UQnjg7jrEeuOdeOLdha9MA" value="2"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UQnjhLjrEeuOdeOLdha9MA" name="examenTests" type="_gW1pELjYEeuOdeOLdha9MA" association="_UQnjgLjrEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UQnjhbjrEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UQnjhrjrEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
