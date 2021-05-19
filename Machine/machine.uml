@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_bmkLcLjtEeuOdeOLdha9MA" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_ju_EELjtEeuOdeOLdha9MA" name="Machine" visibility="public">
+    <ownedOperation xmi:id="_FgiTALjuEeuOdeOLdha9MA" name="execute(progam:String)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_M9Nf8LjuEeuOdeOLdha9MA" name="Processor" visibility="public">
+    <ownedOperation xmi:id="_mmauwLjuEeuOdeOLdha9MA" name="init(address)"/>
+    <ownedOperation xmi:id="_rR934LjuEeuOdeOLdha9MA" name="readFromMemory"/>
+    <ownedOperation xmi:id="_txnKILjuEeuOdeOLdha9MA" name="execute"/>
+    <ownedOperation xmi:id="_1JJ_cLjuEeuOdeOLdha9MA" name="loadProgram(program, address)"/>
+    <ownedOperation xmi:id="_6pYt0LjuEeuOdeOLdha9MA" name="writeIntoMemory"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__8EIYLjuEeuOdeOLdha9MA" name="CPU" visibility="public">
+    <generalization xmi:id="_tGJgYLjwEeuOdeOLdha9MA" general="_M9Nf8LjuEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EdxZALjvEeuOdeOLdha9MA" name="AcceleratorCard" visibility="public">
+    <generalization xmi:id="_t0nI4LjwEeuOdeOLdha9MA" general="_M9Nf8LjuEeuOdeOLdha9MA"/>
+    <ownedOperation xmi:id="_IAX9ELjvEeuOdeOLdha9MA" name="init(address)"/>
+    <ownedOperation xmi:id="_I8V2ELjvEeuOdeOLdha9MA" name="execute"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MYt2ULjvEeuOdeOLdha9MA" name="FastCard" visibility="public">
+    <generalization xmi:id="_wDL5QLjwEeuOdeOLdha9MA" general="_EdxZALjvEeuOdeOLdha9MA"/>
+    <ownedOperation xmi:id="_PtmHcLjvEeuOdeOLdha9MA" name="init(address)"/>
+    <ownedOperation xmi:id="_Rpa68LjvEeuOdeOLdha9MA" name="initAddition">
+      <ownedParameter xmi:id="_TC4oQLjvEeuOdeOLdha9MA" name="address"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_UiW28LjvEeuOdeOLdha9MA" name="execute"/>
+    <ownedOperation xmi:id="_U0beYLjvEeuOdeOLdha9MA" name="executeAddition"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_c52GULjvEeuOdeOLdha9MA" name="Program" visibility="public">
+    <ownedAttribute xmi:id="_enfT4LjvEeuOdeOLdha9MA" name="name:String" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_enfT4bjvEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_enfT4rjvEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jWk5MLjvEeuOdeOLdha9MA" name="Instruction" visibility="public"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_psQB0LjvEeuOdeOLdha9MA" name="Memory" visibility="public">
+    <ownedOperation xmi:id="_tDRoALjvEeuOdeOLdha9MA" name="read(Address):ByteArray"/>
+    <ownedOperation xmi:id="_w2CvALjvEeuOdeOLdha9MA" name="write(address)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0jVgILjvEeuOdeOLdha9MA" name="Cache" visibility="public">
+    <ownedAttribute xmi:id="_2TfPILjvEeuOdeOLdha9MA" name="chunk:ByteArray" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2Tf2MLjvEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2Tf2MbjvEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:id="_ZI8gMLjyEeuOdeOLdha9MA" client="_0jVgILjvEeuOdeOLdha9MA" supplier="_psQB0LjvEeuOdeOLdha9MA" contract="_psQB0LjvEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-Hog4LjvEeuOdeOLdha9MA" name="RAM" visibility="public">
+    <interfaceRealization xmi:id="_aQnS4LjyEeuOdeOLdha9MA" client="_-Hog4LjvEeuOdeOLdha9MA" supplier="_psQB0LjvEeuOdeOLdha9MA" contract="_psQB0LjvEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CjV3MLjwEeuOdeOLdha9MA" name="Card" visibility="public">
+    <ownedOperation xmi:id="_EZ5wMLjwEeuOdeOLdha9MA" name="start"/>
+    <ownedOperation xmi:id="_F9d0sLjwEeuOdeOLdha9MA" name="end"/>
+    <ownedOperation xmi:id="_HHRVYLjwEeuOdeOLdha9MA" name="write"/>
+    <ownedOperation xmi:id="_IaiUELjwEeuOdeOLdha9MA" name="read"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_K-BkgLjwEeuOdeOLdha9MA" name="DeviceCard" visibility="public">
+    <generalization xmi:id="_2mW14LjxEeuOdeOLdha9MA" general="_CjV3MLjwEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OCKq8LjwEeuOdeOLdha9MA" name="ExtensionBoard" visibility="public">
+    <generalization xmi:id="_3nlpYLjxEeuOdeOLdha9MA" general="_CjV3MLjwEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SPHMgLjwEeuOdeOLdha9MA" name="Sound" visibility="public">
+    <generalization xmi:id="_8R9GwLjxEeuOdeOLdha9MA" general="_K-BkgLjwEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XmQQULjwEeuOdeOLdha9MA" name="GenericSound" visibility="public">
+    <generalization xmi:id="_5fpXMLjxEeuOdeOLdha9MA" general="_SPHMgLjwEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bSJTQLjwEeuOdeOLdha9MA" name="Vendor2Adapter" visibility="public">
+    <generalization xmi:id="_6Mf2ILjxEeuOdeOLdha9MA" general="_SPHMgLjwEeuOdeOLdha9MA"/>
+    <ownedOperation xmi:id="_jcWUkLjwEeuOdeOLdha9MA" name="write"/>
+    <ownedOperation xmi:id="_jcWUkbjwEeuOdeOLdha9MA" name="end"/>
+    <ownedOperation xmi:id="_jcWUkrjwEeuOdeOLdha9MA" name="start"/>
+    <ownedOperation xmi:id="_jcWUk7jwEeuOdeOLdha9MA" name="read"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eudpILjwEeuOdeOLdha9MA" name="Vendor1Adapter" visibility="public">
+    <generalization xmi:id="_6_c9ELjxEeuOdeOLdha9MA" general="_SPHMgLjwEeuOdeOLdha9MA"/>
+    <ownedOperation xmi:id="_jm6l0LjwEeuOdeOLdha9MA" name="write"/>
+    <ownedOperation xmi:id="_jm6l0bjwEeuOdeOLdha9MA" name="end"/>
+    <ownedOperation xmi:id="_jm6l0rjwEeuOdeOLdha9MA" name="start"/>
+    <ownedOperation xmi:id="_jm6l07jwEeuOdeOLdha9MA" name="read"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HSQA4LjxEeuOdeOLdha9MA" name="decoratedCPU" memberEnd="_HSQA4bjxEeuOdeOLdha9MA _HSQn8rjxEeuOdeOLdha9MA" navigableOwnedEnd="_HSQn8rjxEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_HSQA4bjxEeuOdeOLdha9MA" name="cPUs" type="_EdxZALjvEeuOdeOLdha9MA" association="_HSQA4LjxEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HSQn8LjxEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HSQn8bjxEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_HSQn8rjxEeuOdeOLdha9MA" name="" type="__8EIYLjuEeuOdeOLdha9MA" association="_HSQA4LjxEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HSQn87jxEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HSQn9LjxEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dlfZcLjxEeuOdeOLdha9MA" name="processor" memberEnd="_dlfZcbjxEeuOdeOLdha9MA _dlfZdLjxEeuOdeOLdha9MA" navigableOwnedEnd="_dlfZdLjxEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_dlfZcbjxEeuOdeOLdha9MA" name="" type="_ju_EELjtEeuOdeOLdha9MA" association="_dlfZcLjxEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dlfZcrjxEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dlfZc7jxEeuOdeOLdha9MA"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_dlfZdLjxEeuOdeOLdha9MA" name="" type="_M9Nf8LjuEeuOdeOLdha9MA" aggregation="composite" association="_dlfZcLjxEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dlgAgLjxEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dlgAgbjxEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FJJw8LjyEeuOdeOLdha9MA" name="instructions" memberEnd="_FJJw8bjyEeuOdeOLdha9MA _FJJw9LjyEeuOdeOLdha9MA" navigableOwnedEnd="_FJJw9LjyEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_FJJw8bjyEeuOdeOLdha9MA" name="" type="_c52GULjvEeuOdeOLdha9MA" association="_FJJw8LjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FJJw8rjyEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FJJw87jyEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_FJJw9LjyEeuOdeOLdha9MA" name="" type="_jWk5MLjvEeuOdeOLdha9MA" aggregation="composite" association="_FJJw8LjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FJKYALjyEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FJKYAbjyEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SFKUYLjyEeuOdeOLdha9MA" name="ramProxy" memberEnd="_SFK7cLjyEeuOdeOLdha9MA _SFK7c7jyEeuOdeOLdha9MA" navigableOwnedEnd="_SFK7c7jyEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_SFK7cLjyEeuOdeOLdha9MA" name="caches" type="_0jVgILjvEeuOdeOLdha9MA" association="_SFKUYLjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SFK7cbjyEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SFK7crjyEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_SFK7c7jyEeuOdeOLdha9MA" name="rAMs" type="_-Hog4LjvEeuOdeOLdha9MA" association="_SFKUYLjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SFK7dLjyEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SFK7dbjyEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dFhDcLjyEeuOdeOLdha9MA" name="memory" memberEnd="_dFhqgLjyEeuOdeOLdha9MA _dFhqg7jyEeuOdeOLdha9MA" navigableOwnedEnd="_dFhqg7jyEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_dFhqgLjyEeuOdeOLdha9MA" name="machines" type="_ju_EELjtEeuOdeOLdha9MA" association="_dFhDcLjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dFhqgbjyEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dFhqgrjyEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_dFhqg7jyEeuOdeOLdha9MA" name="" type="_psQB0LjvEeuOdeOLdha9MA" aggregation="composite" association="_dFhDcLjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dFhqhLjyEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dFhqhbjyEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fC2S0LjyEeuOdeOLdha9MA" name="cards" memberEnd="_fC2S0bjyEeuOdeOLdha9MA _fC254rjyEeuOdeOLdha9MA" navigableOwnedEnd="_fC254rjyEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_fC2S0bjyEeuOdeOLdha9MA" name="machines" type="_ju_EELjtEeuOdeOLdha9MA" association="_fC2S0LjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fC254LjyEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fC254bjyEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_fC254rjyEeuOdeOLdha9MA" name="" type="_CjV3MLjwEeuOdeOLdha9MA" aggregation="composite" association="_fC2S0LjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fC2547jyEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fC255LjyEeuOdeOLdha9MA" value="3"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0sQEMLjyEeuOdeOLdha9MA" name=" " memberEnd="_0sQEMbjyEeuOdeOLdha9MA _0sQrQrjyEeuOdeOLdha9MA" navigableOwnedEnd="_0sQrQrjyEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_0sQEMbjyEeuOdeOLdha9MA" name="processors" type="_M9Nf8LjuEeuOdeOLdha9MA" association="_0sQEMLjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0sQrQLjyEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0sQrQbjyEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_0sQrQrjyEeuOdeOLdha9MA" name="memory" type="_psQB0LjvEeuOdeOLdha9MA" aggregation="composite" association="_0sQEMLjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0sRSULjyEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0sRSUbjyEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-OZv4LjyEeuOdeOLdha9MA" name=" " memberEnd="_-OZv4bjyEeuOdeOLdha9MA _-OaW8rjyEeuOdeOLdha9MA" navigableOwnedEnd="_-OaW8rjyEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_-OZv4bjyEeuOdeOLdha9MA" name="extensionBoard" type="_OCKq8LjwEeuOdeOLdha9MA" association="_-OZv4LjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-OaW8LjyEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-OaW8bjyEeuOdeOLdha9MA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_-OaW8rjyEeuOdeOLdha9MA" name="cards" type="_CjV3MLjwEeuOdeOLdha9MA" aggregation="composite" association="_-OZv4LjyEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-OaW87jyEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-OaW9LjyEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IEE0gLjzEeuOdeOLdha9MA" name=" " memberEnd="_IEE0gbjzEeuOdeOLdha9MA _IEFbkbjzEeuOdeOLdha9MA" navigableOwnedEnd="_IEFbkbjzEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_IEE0gbjzEeuOdeOLdha9MA" name="" type="_M9Nf8LjuEeuOdeOLdha9MA" association="_IEE0gLjzEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IEE0grjzEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IEFbkLjzEeuOdeOLdha9MA"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_IEFbkbjzEeuOdeOLdha9MA" name="program" type="_c52GULjvEeuOdeOLdha9MA" association="_IEE0gLjzEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IEFbkrjzEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IEFbk7jzEeuOdeOLdha9MA"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
