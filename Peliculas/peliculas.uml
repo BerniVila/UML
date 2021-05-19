@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vFaUILjJEeuOdeOLdha9MA" name="NewModel">
+  <packageImport xmi:id="_bdDYALjKEeuOdeOLdha9MA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_fCtQELjKEeuOdeOLdha9MA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_zyIQALjLEeuOdeOLdha9MA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_74WbILjJEeuOdeOLdha9MA" name="Pelicula" visibility="public">
+    <ownedAttribute xmi:id="_Ak8GELjKEeuOdeOLdha9MA" name="titulo" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ak8tILjKEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ak8tIbjKEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CJC9ILjKEeuOdeOLdha9MA" name="sinopsis" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CJDkMLjKEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CJDkMbjKEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_E44ngLjKEeuOdeOLdha9MA" name="anyo" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E45OkLjKEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E45OkbjKEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_G7_uwLjKEeuOdeOLdha9MA" name="genero" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G8AV0LjKEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G8AV0bjKEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_IxQnQLjKEeuOdeOLdha9MA" name="pais" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IxROULjKEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IxROUbjKEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_ziOBMLjKEeuOdeOLdha9MA" name="getTitulo:String"/>
+    <ownedOperation xmi:id="_4GO-8LjKEeuOdeOLdha9MA" name="getSinopsis:String"/>
+    <ownedOperation xmi:id="_5Hiq8LjKEeuOdeOLdha9MA" name="getAnyo:int"/>
+    <ownedOperation xmi:id="_6AXwYLjKEeuOdeOLdha9MA" name="getGenero:String"/>
+    <ownedOperation xmi:id="_6L-jcLjKEeuOdeOLdha9MA" name="getPais:String"/>
+    <ownedOperation xmi:id="_GjWIwLjLEeuOdeOLdha9MA" name="setPais:String"/>
+    <ownedOperation xmi:id="_GjWv0LjLEeuOdeOLdha9MA" name="setTitulo:String"/>
+    <ownedOperation xmi:id="_GjWv0bjLEeuOdeOLdha9MA" name="setSinopsis:String"/>
+    <ownedOperation xmi:id="_GjWv0rjLEeuOdeOLdha9MA" name="setGenero:String"/>
+    <ownedOperation xmi:id="_GjWv07jLEeuOdeOLdha9MA" name="setAnyo:int"/>
+    <ownedOperation xmi:id="_NuKJoLjLEeuOdeOLdha9MA" name="toString"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SaPeQLjLEeuOdeOLdha9MA" name="Persona" visibility="public">
+    <ownedAttribute xmi:id="_WnN1ALjLEeuOdeOLdha9MA" name="nombre" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WnN1AbjLEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnOcELjLEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_YIT0ULjLEeuOdeOLdha9MA" name="apellido1" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YIT0UbjLEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YIUbYLjLEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_lA7skLjLEeuOdeOLdha9MA" name="apellido2" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lA7skbjLEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lA7skrjLEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_mvjxkLjLEeuOdeOLdha9MA" name="fechaNachimiento" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#Date"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mvjxkbjLEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mvjxkrjLEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_vkwQoLjLEeuOdeOLdha9MA" name="nacionalidad" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vkwQobjLEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vkwQorjLEeuOdeOLdha9MA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_2vMeELjLEeuOdeOLdha9MA" name="getNombre:String"/>
+    <ownedOperation xmi:id="_8SH7ILjLEeuOdeOLdha9MA" name="getApellido1:String"/>
+    <ownedOperation xmi:id="_8dbMMLjLEeuOdeOLdha9MA" name="getApellido2:String"/>
+    <ownedOperation xmi:id="_89iPoLjLEeuOdeOLdha9MA" name="getFechaNacimiento:Date"/>
+    <ownedOperation xmi:id="_9JSMoLjLEeuOdeOLdha9MA" name="getNacionalidad:String"/>
+    <ownedOperation xmi:id="_HrBGALjMEeuOdeOLdha9MA" name="setApellido2:String"/>
+    <ownedOperation xmi:id="_HrBtELjMEeuOdeOLdha9MA" name="setNombre:String"/>
+    <ownedOperation xmi:id="_HrBtEbjMEeuOdeOLdha9MA" name="setNacionalidad:String"/>
+    <ownedOperation xmi:id="_HrBtErjMEeuOdeOLdha9MA" name="setFechaNacimiento:Date"/>
+    <ownedOperation xmi:id="_HrBtE7jMEeuOdeOLdha9MA" name="setApellido1:String"/>
+    <ownedOperation xmi:id="_Mf2G8LjMEeuOdeOLdha9MA" name="toString"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RSpHkLjMEeuOdeOLdha9MA" name="Actor" visibility="public">
+    <generalization xmi:id="_vj11MLjMEeuOdeOLdha9MA" general="_SaPeQLjLEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ShoqQLjMEeuOdeOLdha9MA" name="Director" visibility="public">
+    <generalization xmi:id="_wz2EgLjMEeuOdeOLdha9MA" general="_SaPeQLjLEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UDHEELjMEeuOdeOLdha9MA" name="Productor" visibility="public">
+    <generalization xmi:id="_xm3c4LjMEeuOdeOLdha9MA" general="_SaPeQLjLEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VT2TMLjMEeuOdeOLdha9MA" name="Guionista" visibility="public">
+    <generalization xmi:id="_yTWIYLjMEeuOdeOLdha9MA" general="_SaPeQLjLEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__nKu4LjMEeuOdeOLdha9MA" name="Trailer" visibility="public">
+    <templateBinding xmi:id="_4SCNALjPEeuOdeOLdha9MA"/>
+    <templateBinding xmi:id="_5XL3MLjPEeuOdeOLdha9MA"/>
+    <templateBinding xmi:id="_6LLf8LjPEeuOdeOLdha9MA"/>
+    <templateBinding xmi:id="_8BWXYLjPEeuOdeOLdha9MA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mcHmQLjNEeuOdeOLdha9MA" name="personas_editan" memberEnd="_mcHmQbjNEeuOdeOLdha9MA _mcI0YrjNEeuOdeOLdha9MA" navigableOwnedEnd="_mcI0YrjNEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_mcHmQbjNEeuOdeOLdha9MA" name="trailers" type="__nKu4LjMEeuOdeOLdha9MA" association="_mcHmQLjNEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mcI0YLjNEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mcI0YbjNEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_mcI0YrjNEeuOdeOLdha9MA" name="personas" type="_SaPeQLjLEeuOdeOLdha9MA" association="_mcHmQLjNEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mcJbcLjNEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mcJbcbjNEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_-QXMoLjPEeuOdeOLdha9MA" client="__nKu4LjMEeuOdeOLdha9MA" supplier="_74WbILjJEeuOdeOLdha9MA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LxnyMLjQEeuOdeOLdha9MA" name="director_dirige_peliculas" memberEnd="_LxnyMbjQEeuOdeOLdha9MA _LxoZQrjQEeuOdeOLdha9MA" navigableOwnedEnd="_LxoZQrjQEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_LxnyMbjQEeuOdeOLdha9MA" name="directors" type="_ShoqQLjMEeuOdeOLdha9MA" association="_LxnyMLjQEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LxoZQLjQEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LxoZQbjQEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_LxoZQrjQEeuOdeOLdha9MA" name="peliculas" type="_74WbILjJEeuOdeOLdha9MA" association="_LxnyMLjQEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LxoZQ7jQEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LxoZRLjQEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_M2vAILjQEeuOdeOLdha9MA" name="guinista_escribe_peliculas" memberEnd="_M2vnMLjQEeuOdeOLdha9MA _M2wOQLjQEeuOdeOLdha9MA" navigableOwnedEnd="_M2wOQLjQEeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_M2vnMLjQEeuOdeOLdha9MA" name="guionistas" type="_VT2TMLjMEeuOdeOLdha9MA" association="_M2vAILjQEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M2vnMbjQEeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M2vnMrjQEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_M2wOQLjQEeuOdeOLdha9MA" name="peliculas" type="_74WbILjJEeuOdeOLdha9MA" association="_M2vAILjQEeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M2wOQbjQEeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M2wOQrjQEeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PiIZ8LjREeuOdeOLdha9MA" memberEnd="_PiJBALjREeuOdeOLdha9MA _PiJBA7jREeuOdeOLdha9MA" navigableOwnedEnd="_PiJBA7jREeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_PiJBALjREeuOdeOLdha9MA" name="peliculas" type="_74WbILjJEeuOdeOLdha9MA" association="_PiIZ8LjREeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PiJBAbjREeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PiJBArjREeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_PiJBA7jREeuOdeOLdha9MA" name="actors" type="_RSpHkLjMEeuOdeOLdha9MA" aggregation="composite" association="_PiIZ8LjREeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PiJBBLjREeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PiJoELjREeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Vhla8LjREeuOdeOLdha9MA" name="productor_produce_peliculas" memberEnd="_Vhla8bjREeuOdeOLdha9MA _Vhla9LjREeuOdeOLdha9MA" navigableOwnedEnd="_Vhla8bjREeuOdeOLdha9MA _Vhla9LjREeuOdeOLdha9MA">
+    <ownedEnd xmi:id="_Vhla8bjREeuOdeOLdha9MA" name="productors" type="_UDHEELjMEeuOdeOLdha9MA" association="_Vhla8LjREeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vhla8rjREeuOdeOLdha9MA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vhla87jREeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Vhla9LjREeuOdeOLdha9MA" name="peliculas" type="_74WbILjJEeuOdeOLdha9MA" association="_Vhla8LjREeuOdeOLdha9MA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vhla9bjREeuOdeOLdha9MA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vhla9rjREeuOdeOLdha9MA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
