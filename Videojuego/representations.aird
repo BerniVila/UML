@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_AKkp0LjAEeu5xOnjcF4hRA" selectedViews="_PAYAcLjAEeu5xOnjcF4hRA _PLqDYLjAEeu5xOnjcF4hRA _PMjbQLjAEeu5xOnjcF4hRA _PN9wgLjAEeu5xOnjcF4hRA _PPwgQLjAEeu5xOnjcF4hRA _PRm6YLjAEeu5xOnjcF4hRA" version="14.1.0.201810161215">
+    <semanticResources>videojuego.uml</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>pathmap://UML_PROFILES/Standard.profile.uml</semanticResources>
+    <semanticResources>http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard</semanticResources>
+    <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
+    <semanticResources>pathmap://UML_PROFILES/Ecore.profile.uml</semanticResources>
+    <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>http://www.eclipse.org/uml2/5.0.0/UML</semanticResources>
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_PAYAcLjAEeu5xOnjcF4hRA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.core.design/description/uml2core.odesign#//@ownedViewpoints[name='Reused']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_PLqDYLjAEeu5xOnjcF4hRA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Reused']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_PMjbQLjAEeu5xOnjcF4hRA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_PN9wgLjAEeu5xOnjcF4hRA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_VnO_sLjAEeu5xOnjcF4hRA" name="diagrama_videojuego" repPath="#_VkoXoLjAEeu5xOnjcF4hRA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']"/>
+        <target xmi:type="uml:Model" href="videojuego.uml#_O3bf0LjAEeu5xOnjcF4hRA"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_PPwgQLjAEeu5xOnjcF4hRA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_PRm6YLjAEeu5xOnjcF4hRA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Extend']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_VkoXoLjAEeu5xOnjcF4hRA" name="diagrama_videojuego">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_VnF1wLjAEeu5xOnjcF4hRA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_VnGc0LjAEeu5xOnjcF4hRA">
+        <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_jVFS8LjEEeu5xOnjcF4hRA" sourceArrow="Diamond">
+          <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          <beginLabelStyleDescription xmi:type="style:BeginLabelStyleDescription" xmi:id="_jVFS8bjEEeu5xOnjcF4hRA" showIcon="false" labelExpression="aql:self.computeAssociationBeginLabel()">
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </beginLabelStyleDescription>
+          <centerLabelStyleDescription xmi:type="style:CenterLabelStyleDescription" xmi:id="_jVFS8rjEEeu5xOnjcF4hRA" showIcon="false" labelExpression="service:computeUmlLabel">
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </centerLabelStyleDescription>
+          <endLabelStyleDescription xmi:type="style:EndLabelStyleDescription" xmi:id="_jVFS87jEEeu5xOnjcF4hRA" showIcon="false" labelExpression="aql:self.computeAssociationEndLabel()">
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </endLabelStyleDescription>
+        </computedStyleDescriptions>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_VoPsULjAEeu5xOnjcF4hRA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_VoPsUbjAEeu5xOnjcF4hRA" type="Sirius" element="_VkoXoLjAEeu5xOnjcF4hRA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_mydVkLjAEeu5xOnjcF4hRA" type="2003" element="_mxwK8LjAEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_myejsLjAEeu5xOnjcF4hRA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_myg_8LjAEeu5xOnjcF4hRA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_pekWgLjAEeu5xOnjcF4hRA" type="3010" element="_peQ0gLjAEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_pekWgbjAEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_pekWgrjAEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sSMUsLjAEeu5xOnjcF4hRA" type="3010" element="_sSE_8bjAEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_sSMUsbjAEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_sSMUsrjAEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_y-Ou4LjAEeu5xOnjcF4hRA" type="3010" element="_y-E94LjAEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_y-Ou4bjAEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_y-Ou4rjAEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_12hKoLjAEeu5xOnjcF4hRA" type="3010" element="_12YnwbjAEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_12hKobjAEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_12hKorjAEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rij1QLjFEeu5xOnjcF4hRA" type="3010" element="_riMo5LjFEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_rij1QbjFEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rij1QrjFEeu5xOnjcF4hRA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_myg_8bjAEeu5xOnjcF4hRA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_myg_8rjAEeu5xOnjcF4hRA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_mydVkbjAEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mydVkrjAEeu5xOnjcF4hRA" x="612" y="27" width="120" height="111"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_A7PcULjBEeu5xOnjcF4hRA" type="2003" element="_A6-WkLjBEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_A7QDYLjBEeu5xOnjcF4hRA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_A7QDYbjBEeu5xOnjcF4hRA" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_A7QDYrjBEeu5xOnjcF4hRA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_A7QDY7jBEeu5xOnjcF4hRA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_A7PcUbjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A7PcUrjBEeu5xOnjcF4hRA" x="297" y="450" width="120" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DWAOkLjBEeu5xOnjcF4hRA" type="2003" element="_DVkJsLjBEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_DWA1oLjBEeu5xOnjcF4hRA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_DWA1objBEeu5xOnjcF4hRA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_RZVmcLjBEeu5xOnjcF4hRA" type="3010" element="_RZAPQLjBEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_RZVmcbjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_RZVmcrjBEeu5xOnjcF4hRA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DWA1orjBEeu5xOnjcF4hRA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DWA1o7jBEeu5xOnjcF4hRA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DWAOkbjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DWAOkrjBEeu5xOnjcF4hRA" x="477" y="450" width="120" height="66"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_F5A94LjBEeu5xOnjcF4hRA" type="2003" element="_F4OTsLjBEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_F5A947jBEeu5xOnjcF4hRA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_F5Bk8LjBEeu5xOnjcF4hRA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_FOHKQLjCEeu5xOnjcF4hRA" type="3010" element="_FN69ALjCEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_FOHKQbjCEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_FOHKQrjCEeu5xOnjcF4hRA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_F5Bk8bjBEeu5xOnjcF4hRA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_F5Bk8rjBEeu5xOnjcF4hRA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F5A94bjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F5A94rjBEeu5xOnjcF4hRA" x="801" y="268" width="120" height="66"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9qcYLjBEeu5xOnjcF4hRA" type="2003" element="_a9O-kLjBEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_a9rDcLjBEeu5xOnjcF4hRA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_a9rDcbjBEeu5xOnjcF4hRA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_eJGdoLjBEeu5xOnjcF4hRA" type="3010" element="_eIxGcLjBEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_eJGdobjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_eJGdorjBEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jElgMLjBEeu5xOnjcF4hRA" type="3010" element="_jEdkYbjBEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_jElgMbjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jElgMrjBEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rhsPYLjBEeu5xOnjcF4hRA" type="3010" element="_rhjsgLjBEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_rhsPYbjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rhsPYrjBEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sIwPY7jBEeu5xOnjcF4hRA" type="3010" element="_sImeYLjBEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_sIwPZLjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_sIwPZbjBEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rhroULjBEeu5xOnjcF4hRA" type="3010" element="_rhjFcLjBEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_rhroUbjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rhroUrjBEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sIwPYLjBEeu5xOnjcF4hRA" type="3010" element="_sIlQQ7jBEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_sIwPYbjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_sIwPYrjBEeu5xOnjcF4hRA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_a9rDcrjBEeu5xOnjcF4hRA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_a9rDc7jBEeu5xOnjcF4hRA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9qcYbjBEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9qcYrjBEeu5xOnjcF4hRA" x="792" y="414" width="165" height="129"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DNDmkLjEEeu5xOnjcF4hRA" type="2003" element="_DMm6oLjEEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_DNENoLjEEeu5xOnjcF4hRA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_DNENobjEEeu5xOnjcF4hRA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_F63QoLjEEeu5xOnjcF4hRA" type="3010" element="_F6cZ4LjEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_F63QobjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_F63QorjEEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_H2M78LjEEeu5xOnjcF4hRA" type="3010" element="_H1zTULjEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_H2M78bjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_H2M78rjEEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KG4lILjEEeu5xOnjcF4hRA" type="3010" element="_KGVykLjEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_KG4lIbjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KG4lIrjEEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_57YKYLjEEeu5xOnjcF4hRA" type="3010" element="_57HrsbjEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_57YKYbjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_57YKYrjEEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_57YxcLjEEeu5xOnjcF4hRA" type="3010" element="_57I50bjEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_57YxcbjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_57YxcrjEEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_7sI9YLjEEeu5xOnjcF4hRA" type="3010" element="_7r33objEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_7sI9YbjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_7sI9YrjEEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_57XjULjEEeu5xOnjcF4hRA" type="3010" element="_57HEo7jEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_57XjUbjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_57XjUrjEEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_57YKY7jEEeu5xOnjcF4hRA" type="3010" element="_57ISwbjEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_57YKZLjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_57YKZbjEEeu5xOnjcF4hRA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_7sIWULjEEeu5xOnjcF4hRA" type="3010" element="_7r3QlbjEEeu5xOnjcF4hRA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_7sIWUbjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_7sIWUrjEEeu5xOnjcF4hRA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DNENorjEEeu5xOnjcF4hRA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DNENo7jEEeu5xOnjcF4hRA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DNDmkbjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNDmkrjEEeu5xOnjcF4hRA" x="396" y="171" width="174" height="192"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_VoPsUrjAEeu5xOnjcF4hRA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_Nu-_ILjCEeu5xOnjcF4hRA" type="4001" element="_NulWgLjCEeu5xOnjcF4hRA" source="_F5A94LjBEeu5xOnjcF4hRA" target="_mydVkLjAEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_Nu-_JLjCEeu5xOnjcF4hRA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nu-_JbjCEeu5xOnjcF4hRA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Nu-_JrjCEeu5xOnjcF4hRA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nu-_J7jCEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Nu-_KLjCEeu5xOnjcF4hRA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nu-_KbjCEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Nu-_IbjCEeu5xOnjcF4hRA" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Nu-_IrjCEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Nu-_I7jCEeu5xOnjcF4hRA" points="[0, 0, 63, 90]$[-63, -90, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nu_mMLjCEeu5xOnjcF4hRA" id="(0.3050847457627119,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nu_mMbjCEeu5xOnjcF4hRA" id="(0.5,0.45871559633027525)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_OW8-ELjCEeu5xOnjcF4hRA" type="4001" element="_OWkjkLjCEeu5xOnjcF4hRA" source="_a9qcYLjBEeu5xOnjcF4hRA" target="_F5A94LjBEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_OW8-FLjCEeu5xOnjcF4hRA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OW8-FbjCEeu5xOnjcF4hRA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OW8-FrjCEeu5xOnjcF4hRA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OW8-F7jCEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OW8-GLjCEeu5xOnjcF4hRA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OW8-GbjCEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_OW8-EbjCEeu5xOnjcF4hRA" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_OW8-ErjCEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OW8-E7jCEeu5xOnjcF4hRA" points="[0, 0, 18, 61]$[-18, -61, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OW9lILjCEeu5xOnjcF4hRA" id="(0.5521472392638037,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OW9lIbjCEeu5xOnjcF4hRA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_P87ygLjEEeu5xOnjcF4hRA" type="4001" element="_P8g7yLjEEeu5xOnjcF4hRA" source="_DNDmkLjEEeu5xOnjcF4hRA" target="_mydVkLjAEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_P88ZkLjEEeu5xOnjcF4hRA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P88ZkbjEEeu5xOnjcF4hRA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P88ZkrjEEeu5xOnjcF4hRA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P88Zk7jEEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P88ZlLjEEeu5xOnjcF4hRA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P88ZlbjEEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_P87ygbjEEeu5xOnjcF4hRA" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_P87ygrjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_P87yg7jEEeu5xOnjcF4hRA" points="[0, 0, -148, 126]$[148, -126, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P89AoLjEEeu5xOnjcF4hRA" id="(0.3953488372093023,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P89AobjEEeu5xOnjcF4hRA" id="(0.5,0.45871559633027525)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Qlm8ELjEEeu5xOnjcF4hRA" type="4001" element="_QlNTcLjEEeu5xOnjcF4hRA" source="_A7PcULjBEeu5xOnjcF4hRA" target="_DNDmkLjEEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_Qlm8FLjEEeu5xOnjcF4hRA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qlm8FbjEEeu5xOnjcF4hRA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Qlm8FrjEEeu5xOnjcF4hRA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qlm8F7jEEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_QlnjILjEEeu5xOnjcF4hRA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QlnjIbjEEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Qlm8EbjEEeu5xOnjcF4hRA" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Qlm8ErjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Qlm8E7jEEeu5xOnjcF4hRA" points="[0, 0, -108, 126]$[108, -126, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QlnjIrjEEeu5xOnjcF4hRA" id="(0.7627118644067796,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QlnjI7jEEeu5xOnjcF4hRA" id="(0.3953488372093023,0.2578947368421053)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_RJynMLjEEeu5xOnjcF4hRA" type="4001" element="_RJXwdrjEEeu5xOnjcF4hRA" source="_DWAOkLjBEeu5xOnjcF4hRA" target="_DNDmkLjEEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_RJynNLjEEeu5xOnjcF4hRA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RJynNbjEEeu5xOnjcF4hRA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RJzOQLjEEeu5xOnjcF4hRA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RJzOQbjEEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RJzOQrjEEeu5xOnjcF4hRA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RJzOQ7jEEeu5xOnjcF4hRA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RJynMbjEEeu5xOnjcF4hRA" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_RJynMrjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RJynM7jEEeu5xOnjcF4hRA" points="[0, 0, 22, 46]$[-22, -46, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RJzORLjEEeu5xOnjcF4hRA" id="(0.6864406779661016,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RJzORbjEEeu5xOnjcF4hRA" id="(0.3953488372093023,0.2578947368421053)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_jVrI0LjEEeu5xOnjcF4hRA" type="4001" element="_jVBBgLjEEeu5xOnjcF4hRA" source="_DWAOkLjBEeu5xOnjcF4hRA" target="_F5A94LjBEeu5xOnjcF4hRA">
+          <children xmi:type="notation:Node" xmi:id="_jVrv4LjEEeu5xOnjcF4hRA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jVrv4bjEEeu5xOnjcF4hRA" x="4" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jVrv4rjEEeu5xOnjcF4hRA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jVrv47jEEeu5xOnjcF4hRA" x="-5" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jVrv5LjEEeu5xOnjcF4hRA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jVrv5bjEEeu5xOnjcF4hRA" x="-5" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_jVrI0bjEEeu5xOnjcF4hRA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_jVrI0rjEEeu5xOnjcF4hRA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jVrI07jEEeu5xOnjcF4hRA" points="[0, 0, -206, 185]$[206, -185, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jVsW8LjEEeu5xOnjcF4hRA" id="(1.0,0.359375)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jVsW8bjEEeu5xOnjcF4hRA" id="(0.0,0.3125)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_mxwK8LjAEeu5xOnjcF4hRA" name="Elemento" tooltipText="Videojuego::Elemento" incomingEdges="_NulWgLjCEeu5xOnjcF4hRA _P8g7yLjEEeu5xOnjcF4hRA" width="12" height="10">
+      <target xmi:type="uml:Class" href="videojuego.uml#_kllOULjAEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Class" href="videojuego.uml#_kllOULjAEeu5xOnjcF4hRA"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_mx578LjAEeu5xOnjcF4hRA" labelSize="9" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="232,239,247">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_peQ0gLjAEeu5xOnjcF4hRA" name="x : double [0..1]">
+        <target xmi:type="uml:Property" href="videojuego.uml#_ogmSYLjAEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Property" href="videojuego.uml#_ogmSYLjAEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_peVF8LjAEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_sSE_8bjAEeu5xOnjcF4hRA" name="y : double [0..1]">
+        <target xmi:type="uml:Property" href="videojuego.uml#_sR9rMLjAEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Property" href="videojuego.uml#_sR9rMLjAEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_sSFnALjAEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_y-E94LjAEeu5xOnjcF4hRA" name="getY: double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_xmSrkLjAEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_xmSrkLjAEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_y-Fk8LjAEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_12YnwbjAEeu5xOnjcF4hRA" name="setY : double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_0mNZULjAEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_0mNZULjAEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_12ZO0LjAEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_riMo5LjFEeu5xOnjcF4hRA" name="toString() : String[1]">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_qOpWULjFEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_qOpWULjFEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Parameter" href="videojuego.uml#_s_aNwLjFEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_riNP8LjFEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_A6-WkLjBEeu5xOnjcF4hRA" name="Enemigo" tooltipText="Videojuego::Enemigo" outgoingEdges="_QlNTcLjEEeu5xOnjcF4hRA" width="12" height="10">
+      <target xmi:type="uml:Class" href="videojuego.uml#___Wb0LjAEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Class" href="videojuego.uml#___Wb0LjAEeu5xOnjcF4hRA"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_A6-9oLjBEeu5xOnjcF4hRA" labelSize="9" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="232,239,247">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_DVkJsLjBEeu5xOnjcF4hRA" name="Personaje" tooltipText="Videojuego::Personaje" outgoingEdges="_RJXwdrjEEeu5xOnjcF4hRA _jVBBgLjEEeu5xOnjcF4hRA" width="12" height="10">
+      <target xmi:type="uml:Class" href="videojuego.uml#_CTMGsLjBEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Class" href="videojuego.uml#_CTMGsLjBEeu5xOnjcF4hRA"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DVlX0LjBEeu5xOnjcF4hRA" labelSize="9" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="232,239,247">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_RZAPQLjBEeu5xOnjcF4hRA" name="mochila : Mueble[] [0..1]">
+        <target xmi:type="uml:Property" href="videojuego.uml#_Nj3JsLjBEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Property" href="videojuego.uml#_Nj3JsLjBEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_RZA2ULjBEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_F4OTsLjBEeu5xOnjcF4hRA" name="Mueble" tooltipText="Videojuego::Mueble" outgoingEdges="_NulWgLjCEeu5xOnjcF4hRA" incomingEdges="_OWkjkLjCEeu5xOnjcF4hRA _jVBBgLjEEeu5xOnjcF4hRA" width="12" height="10">
+      <target xmi:type="uml:Class" href="videojuego.uml#_ERlGALjBEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Class" href="videojuego.uml#_ERlGALjBEeu5xOnjcF4hRA"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_F4O6wLjBEeu5xOnjcF4hRA" labelSize="9" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="232,239,247">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_FN69ALjCEeu5xOnjcF4hRA" name="mover()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_EHlAALjCEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_EHlAALjCEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_FN7kELjCEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_a9O-kLjBEeu5xOnjcF4hRA" name="Arma" tooltipText="Videojuego::Arma" outgoingEdges="_OWkjkLjCEeu5xOnjcF4hRA" width="12" height="10">
+      <target xmi:type="uml:Class" href="videojuego.uml#_aMMjMLjBEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Class" href="videojuego.uml#_aMMjMLjBEeu5xOnjcF4hRA"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_a9PloLjBEeu5xOnjcF4hRA" labelSize="9" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="232,239,247">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_eIxGcLjBEeu5xOnjcF4hRA" name="nivelEnergia : double [0..1]">
+        <target xmi:type="uml:Property" href="videojuego.uml#_cZlAwLjBEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Property" href="videojuego.uml#_cZlAwLjBEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_eIxtgLjBEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_jEdkYbjBEeu5xOnjcF4hRA" name="factorPotenciador : double [0..1]">
+        <target xmi:type="uml:Property" href="videojuego.uml#_jEQwELjBEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Property" href="videojuego.uml#_jEQwELjBEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_jEeLcLjBEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_rhjsgLjBEeu5xOnjcF4hRA" name="getNivelEnergia: double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_rhVDAbjBEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_rhVDAbjBEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_rhjsgbjBEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_sImeYLjBEeu5xOnjcF4hRA" name="getFactorPotenciador: double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_sIWmwbjBEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_sIWmwbjBEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_sImeYbjBEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_rhjFcLjBEeu5xOnjcF4hRA" name="setNivelEnergia : double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_rhVDALjBEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_rhVDALjBEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_rhjFcbjBEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_sIlQQ7jBEeu5xOnjcF4hRA" name="setFactorPotenciador : double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_sIWmwLjBEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_sIWmwLjBEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_sIl3ULjBEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_NulWgLjCEeu5xOnjcF4hRA" sourceNode="_F4OTsLjBEeu5xOnjcF4hRA" targetNode="_mxwK8LjAEeu5xOnjcF4hRA">
+      <target xmi:type="uml:Generalization" href="videojuego.uml#_NuhFELjCEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Generalization" href="videojuego.uml#_NuhFELjCEeu5xOnjcF4hRA"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_NulWgbjCEeu5xOnjcF4hRA" targetArrow="InputClosedArrow" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_NulWgrjCEeu5xOnjcF4hRA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OWkjkLjCEeu5xOnjcF4hRA" sourceNode="_a9O-kLjBEeu5xOnjcF4hRA" targetNode="_F4OTsLjBEeu5xOnjcF4hRA">
+      <target xmi:type="uml:Generalization" href="videojuego.uml#_OWfrELjCEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Generalization" href="videojuego.uml#_OWfrELjCEeu5xOnjcF4hRA"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_OWkjkbjCEeu5xOnjcF4hRA" targetArrow="InputClosedArrow" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_OWkjkrjCEeu5xOnjcF4hRA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_DMm6oLjEEeu5xOnjcF4hRA" name="SerVivo" tooltipText="Videojuego::SerVivo" outgoingEdges="_P8g7yLjEEeu5xOnjcF4hRA" incomingEdges="_QlNTcLjEEeu5xOnjcF4hRA _RJXwdrjEEeu5xOnjcF4hRA" width="12" height="10">
+      <target xmi:type="uml:Class" href="videojuego.uml#_cv-coLjDEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Class" href="videojuego.uml#_cv-coLjDEeu5xOnjcF4hRA"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DMnhsLjEEeu5xOnjcF4hRA" labelSize="9" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="232,239,247">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_F6cZ4LjEEeu5xOnjcF4hRA" name="nivelEnergia : double [0..1]">
+        <target xmi:type="uml:Property" href="videojuego.uml#_Ee0wcLjEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Property" href="videojuego.uml#_Ee0wcLjEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_F6dA8LjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_H1zTULjEEeu5xOnjcF4hRA" name="numeroVidas : double [0..1]">
+        <target xmi:type="uml:Property" href="videojuego.uml#_GgOAcLjEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Property" href="videojuego.uml#_GgOAcLjEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_H1z6YLjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_KGVykLjEEeu5xOnjcF4hRA" name="capacidadOfensiva : double [0..1]">
+        <target xmi:type="uml:Property" href="videojuego.uml#_If4yILjEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Property" href="videojuego.uml#_If4yILjEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KGWZoLjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_57HrsbjEEeu5xOnjcF4hRA" name="getNivelEnergia: double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_562l8bjEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_562l8bjEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_57ISwLjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_57I50bjEEeu5xOnjcF4hRA" name="getNumeroVidas: double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_562l87jEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_562l87jEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_57I50rjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_7r33objEEeu5xOnjcF4hRA" name="getCapacidadOfensiva: double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_7rkVobjEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_7rkVobjEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_7r4esLjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_57HEo7jEEeu5xOnjcF4hRA" name="setNivelEnergia : double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_562l8LjEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_562l8LjEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_57HrsLjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_57ISwbjEEeu5xOnjcF4hRA" name="setNumeroVidas : double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_562l8rjEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_562l8rjEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_57I50LjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_7r3QlbjEEeu5xOnjcF4hRA" name="setCapacidadOfensiva : double()">
+        <target xmi:type="uml:Operation" href="videojuego.uml#_7rkVoLjEEeu5xOnjcF4hRA"/>
+        <semanticElements xmi:type="uml:Operation" href="videojuego.uml#_7rkVoLjEEeu5xOnjcF4hRA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_7r33oLjEEeu5xOnjcF4hRA" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_P8g7yLjEEeu5xOnjcF4hRA" sourceNode="_DMm6oLjEEeu5xOnjcF4hRA" targetNode="_mxwK8LjAEeu5xOnjcF4hRA">
+      <target xmi:type="uml:Generalization" href="videojuego.uml#_P8dRYLjEEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Generalization" href="videojuego.uml#_P8dRYLjEEeu5xOnjcF4hRA"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_P8hi0LjEEeu5xOnjcF4hRA" targetArrow="InputClosedArrow" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_P8hi0bjEEeu5xOnjcF4hRA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_QlNTcLjEEeu5xOnjcF4hRA" sourceNode="_A6-WkLjBEeu5xOnjcF4hRA" targetNode="_DMm6oLjEEeu5xOnjcF4hRA">
+      <target xmi:type="uml:Generalization" href="videojuego.uml#_QlJpELjEEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Generalization" href="videojuego.uml#_QlJpELjEEeu5xOnjcF4hRA"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_QlNTcbjEEeu5xOnjcF4hRA" targetArrow="InputClosedArrow" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_QlNTcrjEEeu5xOnjcF4hRA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_RJXwdrjEEeu5xOnjcF4hRA" sourceNode="_DVkJsLjBEeu5xOnjcF4hRA" targetNode="_DMm6oLjEEeu5xOnjcF4hRA">
+      <target xmi:type="uml:Generalization" href="videojuego.uml#_RJUGELjEEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Generalization" href="videojuego.uml#_RJUGELjEEeu5xOnjcF4hRA"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_RJXwd7jEEeu5xOnjcF4hRA" targetArrow="InputClosedArrow" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_RJXweLjEEeu5xOnjcF4hRA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Generalization']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_jVBBgLjEEeu5xOnjcF4hRA" name="personajesCarganMuebles" sourceNode="_DVkJsLjBEeu5xOnjcF4hRA" targetNode="_F4OTsLjBEeu5xOnjcF4hRA" beginLabel="personajes[0..3]" endLabel="muebles[1]">
+      <target xmi:type="uml:Association" href="videojuego.uml#_jU4eoLjEEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Association" href="videojuego.uml#_jU4eoLjEEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Property" href="videojuego.uml#_jU5swrjEEeu5xOnjcF4hRA"/>
+      <semanticElements xmi:type="uml:Property" href="videojuego.uml#_jU4eobjEEeu5xOnjcF4hRA"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_jVFS9LjEEeu5xOnjcF4hRA" description="_jVFS8LjEEeu5xOnjcF4hRA" sourceArrow="Diamond">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_jVF6ALjEEeu5xOnjcF4hRA" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_jVGhEbjEEeu5xOnjcF4hRA" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_jVGhELjEEeu5xOnjcF4hRA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Association']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_VlEcgLjAEeu5xOnjcF4hRA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="uml:Model" href="videojuego.uml#_O3bf0LjAEeu5xOnjcF4hRA"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

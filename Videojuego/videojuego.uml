@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_O3bf0LjAEeu5xOnjcF4hRA" name="Videojuego">
+  <packageImport xmi:id="_rcwhgLjAEeu5xOnjcF4hRA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kllOULjAEeu5xOnjcF4hRA" name="Elemento" visibility="public">
+    <ownedAttribute xmi:id="_ogmSYLjAEeu5xOnjcF4hRA" name="x" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ogqj0LjAEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ogrx8LjAEeu5xOnjcF4hRA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_sR9rMLjAEeu5xOnjcF4hRA" name="y" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sR9rMbjAEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sR9rMrjAEeu5xOnjcF4hRA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_xmSrkLjAEeu5xOnjcF4hRA" name="getY: double"/>
+    <ownedOperation xmi:id="_0mNZULjAEeu5xOnjcF4hRA" name="setY : double"/>
+    <ownedOperation xmi:id="_qOpWULjFEeu5xOnjcF4hRA" name="toString">
+      <ownedParameter xmi:id="_s_aNwLjFEeu5xOnjcF4hRA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="___Wb0LjAEeu5xOnjcF4hRA" name="Enemigo" visibility="public">
+    <generalization xmi:id="_QlJpELjEEeu5xOnjcF4hRA" general="_cv-coLjDEeu5xOnjcF4hRA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CTMGsLjBEeu5xOnjcF4hRA" name="Personaje" visibility="public">
+    <generalization xmi:id="_RJUGELjEEeu5xOnjcF4hRA" general="_cv-coLjDEeu5xOnjcF4hRA"/>
+    <ownedAttribute xmi:id="_Nj3JsLjBEeu5xOnjcF4hRA" name="mochila" visibility="public" type="_TJcSILjBEeu5xOnjcF4hRA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Nj3JsbjBEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nj3JsrjBEeu5xOnjcF4hRA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ERlGALjBEeu5xOnjcF4hRA" name="Mueble" visibility="public">
+    <generalization xmi:id="_NuhFELjCEeu5xOnjcF4hRA" general="_kllOULjAEeu5xOnjcF4hRA"/>
+    <ownedOperation xmi:id="_EHlAALjCEeu5xOnjcF4hRA" name="mover"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GVuIALjBEeu5xOnjcF4hRA" name="Inmueble" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TJcSILjBEeu5xOnjcF4hRA" name="Mueble[]"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aMMjMLjBEeu5xOnjcF4hRA" name="Arma" visibility="public">
+    <generalization xmi:id="_OWfrELjCEeu5xOnjcF4hRA" general="_ERlGALjBEeu5xOnjcF4hRA"/>
+    <ownedAttribute xmi:id="_cZlAwLjBEeu5xOnjcF4hRA" name="nivelEnergia" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cZln0LjBEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cZln0bjBEeu5xOnjcF4hRA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_jEQwELjBEeu5xOnjcF4hRA" name="factorPotenciador" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jEQwEbjBEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jEQwErjBEeu5xOnjcF4hRA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_rhVDAbjBEeu5xOnjcF4hRA" name="getNivelEnergia: double"/>
+    <ownedOperation xmi:id="_sIWmwbjBEeu5xOnjcF4hRA" name="getFactorPotenciador: double"/>
+    <ownedOperation xmi:id="_rhVDALjBEeu5xOnjcF4hRA" name="setNivelEnergia : double"/>
+    <ownedOperation xmi:id="_sIWmwLjBEeu5xOnjcF4hRA" name="setFactorPotenciador : double"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cv-coLjDEeu5xOnjcF4hRA" name="SerVivo" visibility="public">
+    <generalization xmi:id="_P8dRYLjEEeu5xOnjcF4hRA" general="_kllOULjAEeu5xOnjcF4hRA"/>
+    <ownedAttribute xmi:id="_Ee0wcLjEEeu5xOnjcF4hRA" name="nivelEnergia" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ee1XgLjEEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ee1XgbjEEeu5xOnjcF4hRA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_GgOAcLjEEeu5xOnjcF4hRA" name="numeroVidas" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GgOngLjEEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GgOngbjEEeu5xOnjcF4hRA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_If4yILjEEeu5xOnjcF4hRA" name="capacidadOfensiva" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_If5ZMLjEEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_If5ZMbjEEeu5xOnjcF4hRA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_562l8bjEEeu5xOnjcF4hRA" name="getNivelEnergia: double"/>
+    <ownedOperation xmi:id="_562l87jEEeu5xOnjcF4hRA" name="getNumeroVidas: double"/>
+    <ownedOperation xmi:id="_7rkVobjEEeu5xOnjcF4hRA" name="getCapacidadOfensiva: double"/>
+    <ownedOperation xmi:id="_562l8LjEEeu5xOnjcF4hRA" name="setNivelEnergia : double"/>
+    <ownedOperation xmi:id="_562l8rjEEeu5xOnjcF4hRA" name="setNumeroVidas : double"/>
+    <ownedOperation xmi:id="_7rkVoLjEEeu5xOnjcF4hRA" name="setCapacidadOfensiva : double"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jU4eoLjEEeu5xOnjcF4hRA" name="personajesCarganMuebles" memberEnd="_jU4eobjEEeu5xOnjcF4hRA _jU5swrjEEeu5xOnjcF4hRA" navigableOwnedEnd="_jU5swrjEEeu5xOnjcF4hRA">
+    <ownedEnd xmi:id="_jU4eobjEEeu5xOnjcF4hRA" name="personajes" type="_CTMGsLjBEeu5xOnjcF4hRA" association="_jU4eoLjEEeu5xOnjcF4hRA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jU5swLjEEeu5xOnjcF4hRA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jU5swbjEEeu5xOnjcF4hRA" value="3"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_jU5swrjEEeu5xOnjcF4hRA" name="muebles" type="_ERlGALjBEeu5xOnjcF4hRA" aggregation="shared" association="_jU4eoLjEEeu5xOnjcF4hRA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jU6T0LjEEeu5xOnjcF4hRA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jU6T0bjEEeu5xOnjcF4hRA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
